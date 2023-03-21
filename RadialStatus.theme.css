@@ -19,7 +19,7 @@
   --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
   --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
 
-  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+  --rs-avatar-shape: 0%; /* 50% for round - 0% for square */
 
   --rs-online-color: #43b581; /* Colour for online status */
   --rs-idle-color: #faa61a; /* Colour for idle status */
@@ -29,5 +29,5 @@
   --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
   --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
 
-  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
